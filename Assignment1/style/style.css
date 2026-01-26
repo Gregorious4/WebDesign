@@ -1,12 +1,17 @@
 body {
-  background-color:powderblue;
+  background-color:lightseagreen;
 }
 h1 {
   padding: 35px;
   text-align: center;
-  background-color: snow;
+  background-color: mediumblue;
 }
 
 h2, h3 {
   text-align: center;
+}
+
+p {
+max-width: 60%;
+margin: 0 auto;
 }
