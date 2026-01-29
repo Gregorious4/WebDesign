@@ -11,11 +11,11 @@ h1 {
 h2,
 h3 {
   text-align: center;
-  color: hsl(208, 100%, 77%);
+  color: hsl(208, 100%, 57%);
 }
 
 p {
   max-width: 60%;
   margin: 0 auto;
-  color: hsl(208, 100%, 57%);
+  color: hsl(208, 100%, 77%);
 }
