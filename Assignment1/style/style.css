@@ -1,10 +1,11 @@
 body {
-  background-color: lightseagreen;
+  background-color: rgb(11, 83, 71);
 }
 h1 {
   padding: 35px;
   text-align: center;
-  background-color: rgb(101, 101, 235);
+  background-color: rgb(11, 11, 71);
+  color: aliceblue;
 }
 
 h2,
