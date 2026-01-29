@@ -1,17 +1,18 @@
 body {
-  background-color:lightseagreen;
+  background-color: lightseagreen;
 }
 h1 {
   padding: 35px;
   text-align: center;
-  background-color: mediumblue;
+  background-color: rgb(59, 59, 194);
 }
 
-h2, h3 {
+h2,
+h3 {
   text-align: center;
 }
 
 p {
-max-width: 60%;
-margin: 0 auto;
+  max-width: 60%;
+  margin: 0 auto;
 }
