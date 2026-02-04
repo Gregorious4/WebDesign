@@ -2,6 +2,13 @@ body {
   background-color: hsl(207, 73%, 15%);
 }
 
+li {
+  list-style-type: none;
+  color: navy;
+  display: inline-block;
+  font-family: Georgia, serif;
+}
+
 header {
   border: 1px solid black;
   padding: 35px;
