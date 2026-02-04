@@ -16,6 +16,13 @@ header {
   background-color: snow;
 }
 
+nav {
+  border: 1px solid black;
+  padding: 35px;
+  text-align: center;
+  background-color: snow;
+}
+
 h1 {
   padding: 35px;
   text-align: center;
