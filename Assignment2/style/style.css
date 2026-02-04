@@ -23,6 +23,10 @@ nav {
   background-color: snow;
 }
 
+img {
+  scale: calc(1);
+}
+
 h1 {
   padding: 35px;
   text-align: center;
