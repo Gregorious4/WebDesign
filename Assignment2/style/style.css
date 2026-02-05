@@ -27,6 +27,7 @@ img {
   scale: 0.1;
   display: block;  
   vertical-align: middle;
+  height: auto;
 }
 
 h1 {
