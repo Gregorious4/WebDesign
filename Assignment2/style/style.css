@@ -25,6 +25,7 @@ nav {
 
 img {
   scale: 0.1;
+  display: block;  
 }
 
 h1 {
