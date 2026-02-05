@@ -23,11 +23,10 @@ nav {
   background-color: navy;
 }
 
-scaled-img {
-    display: block;
-    width: 25%;
-    height: 25%;
-    vertical-align: middle;
+img {
+  scale: 0.1;
+  display: block;  
+  vertical-align: middle;
 }
 
 h1 {
