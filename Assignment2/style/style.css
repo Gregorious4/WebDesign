@@ -26,6 +26,7 @@ nav {
 img {
   scale: 0.1;
   display: block;  
+  vertical-align: bottom;
 }
 
 h1 {
