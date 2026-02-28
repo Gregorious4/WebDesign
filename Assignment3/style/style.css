@@ -159,6 +159,12 @@ th {
 } 
 */
 
+blockquote {
+  max-width: 60%;
+  margin: 0 auto;
+  color: hsl(208, 100%, 77%);
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 14px;
