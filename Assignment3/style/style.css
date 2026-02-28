@@ -152,10 +152,12 @@ th {
   margin: 0 auto;
 }
 
+/*
 #gallery img {
-  width: 30%; /* three images per row (3 x 30% + gaps) */
+  width: 30%; /* three images per row (3 x 30% + gaps)
   height: auto;
-}
+} 
+*/
 
 @media (max-width: 600px) {
   body {
