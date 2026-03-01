@@ -27,11 +27,11 @@ footer {
 nav {
   border: 1px solid black;
   padding: 35px;
-  text-align: right;
+  text-align: center;
   background-color: navy;
   position: fixed;
   top: 0;
-  /*width: 100%; */
+  width: 100%;
 }
 
 img {
@@ -143,7 +143,7 @@ th {
   font-style: normal;
 }
 
-#gallery {
+.gallery {
   display: grid;
   flex-wrap: wrap;
   justify-content: center;
@@ -154,7 +154,7 @@ th {
 }
 
 /*
-#gallery img {
+.gallery img {
   width: 30%; /* three images per row (3 x 30% + gaps)
   height: auto;
 } 
