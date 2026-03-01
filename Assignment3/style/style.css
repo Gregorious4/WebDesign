@@ -49,6 +49,7 @@ h1 {
 
 h2 {
   text-align: center; /* centers the table heading */
+  top: 100;
 }
 
 p,
