@@ -16,6 +16,7 @@ header {
   padding: 35px;
   text-align: center;
   background-color: navy;
+  top: 100;
 }
 
 header,
@@ -29,13 +30,13 @@ nav {
   text-align: center;
   background-color: navy;
   position: fixed;
-  top: -100;
+  top: 0;
   width: 100%;
 }
 
 img {
   scale: 0.3;
-  /* display: block; */
+  display: block;
   vertical-align: middle;
 }
 
