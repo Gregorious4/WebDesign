@@ -144,7 +144,7 @@ th {
 }
 
 #gallery {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
