@@ -29,12 +29,12 @@ nav {
   text-align: center;
   background-color: navy;
   position: fixed;
-  top: 0;
+  top: -100;
   width: 100%;
 }
 
 img {
-  /* scale: 0.1; */
+  scale: 0.3;
   display: block;
   vertical-align: middle;
 }
@@ -147,8 +147,8 @@ th {
   display: grid;
   flex-wrap: wrap;
   justify-content: center;
-  /*gap: 10px; */
-  margin: -100 auto;
+  gap: 10px;
+  margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
 }
