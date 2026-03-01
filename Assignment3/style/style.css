@@ -53,7 +53,8 @@ h2 {
 }
 
 p,
-h2 {
+h2,
+h3 {
   max-width: 60%;
   margin: 0 auto;
   color: hsl(208, 100%, 77%);
