@@ -148,7 +148,7 @@ th {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px; /* spacing between images */
-  max-width: 600px; /* optional: keeps the grid from stretching too far */
+  /*max-width: 600px; /* optional: keeps the grid from stretching too far */
   margin: 0 auto;
 }
 
