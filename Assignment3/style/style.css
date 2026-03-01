@@ -147,7 +147,7 @@ th {
   display: grid;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  /*gap: 10px; */
   margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
