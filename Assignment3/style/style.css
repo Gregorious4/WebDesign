@@ -153,14 +153,13 @@ th {
   grid-template-rows: auto auto auto;
 }
 
-/*
 .gallery img {
-  width: 30%; /* three images per row (3 x 30% + gaps)
+  width: 30%; /* three images per row (3 x 30% + gaps) */
   height: auto;
-} 
-*/
+}
 
-blockquote {
+blockquote,
+cite {
   max-width: 60%;
   margin: 0 auto;
   color: hsl(208, 100%, 77%);
