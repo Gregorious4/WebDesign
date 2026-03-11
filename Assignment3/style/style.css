@@ -35,7 +35,6 @@ nav {
 }
 
 img {
-  scale: 0.3;
   display: block;
   vertical-align: middle;
 }
@@ -152,16 +151,15 @@ th {
 
 .gallery {
   display: grid;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
   margin: 0 auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: (3, 1fr);
   grid-template-rows: auto auto auto;
 }
 
 .gallery img {
-  width: 30%; /* three images per row (3 x 30% + gaps) */
+  width: 100%;
   height: auto;
 }
 
