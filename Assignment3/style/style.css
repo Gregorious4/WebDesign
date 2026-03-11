@@ -25,6 +25,10 @@ footer {
   padding: 10px; /* Adds padding to header, .chapter, AND footer content */
 }
 
+header {
+  margin-top: 100;
+}
+
 nav {
   border: 1px solid black;
   text-align: right;
