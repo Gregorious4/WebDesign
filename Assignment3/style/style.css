@@ -16,17 +16,15 @@ header {
   padding: 35px;
   text-align: center;
   background-color: navy;
-  top: 100;
+  margin-top: 200;
+  background-color: hsl(207, 73%, 30%);
+  color: hsl(208, 100%, 97%);
 }
 
 header,
 .chapter,
 footer {
   padding: 10px; /* Adds padding to header, .chapter, AND footer content */
-}
-
-header {
-  margin-top: 200;
 }
 
 nav {
