@@ -39,7 +39,7 @@ nav {
 img {
   display: block;
   /*vertical-align: middle; */
-  max-width: 33%;
+  /*max-width: 33%; */
 }
 
 h1 {
@@ -166,7 +166,7 @@ th {
 }
 
 .gallery img {
-  width: 30%;
+  max-width: 30%;
   height: auto;
 }
 
