@@ -157,7 +157,7 @@ th {
 }
 
 .gallery {
-  display: grid;
+  display: flex;
   justify-content: center;
   gap: 10px;
   margin: 0 auto;
