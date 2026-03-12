@@ -158,11 +158,13 @@ th {
 
 .gallery {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
   margin: 0 auto;
   grid-template-columns: (3, 1fr);
   grid-template-rows: auto auto auto;
+  max-width: 100%;
 }
 
 .gallery img {
