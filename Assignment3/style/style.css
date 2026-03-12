@@ -158,7 +158,7 @@ th {
 
 .gallery {
   display: grid;
-  /*justify-content: center; */
+  justify-content: center;
   gap: 10px;
   margin: 0 auto;
   grid-template-columns: (3, 1fr);
@@ -166,7 +166,7 @@ th {
 }
 
 .gallery img {
-  width: 100%;
+  width: 30%;
   height: auto;
 }
 
