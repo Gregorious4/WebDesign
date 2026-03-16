@@ -6,6 +6,9 @@
   width: 35%; /* image takes up 35% of the total width of .blog-preview */
   height: auto; /* keeps proportions correct */
   border-radius: 8px; /* optional */
+  max-width: 80%; /* controls total width of the content block */
+  margin: 80px auto; /* centers content on the page with 80px of top/bottom space */
+  padding: 20px 40px; /* adds subtle inner space from edges around content */
 }
 
 .blog-text {
