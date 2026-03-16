@@ -46,3 +46,27 @@
   color: #8fafa7;
   margin-top: 10px;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px;
+  margin: auto;
+  padding: 10px;
+}
+
+.item {
+  background-color: #fcf9ff;
+  border-radius: 8px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 100%; /* makes the image fill the container’s width */
+  height: auto; /* maintains the image's aspect ratio */
+  display: block; /* clears any space after the image */
+  border-radius: 8px; /* optional */
+  text-align: center; /* centers the text horizontally */
+  display: flex; /* turns the <p> into a flex container */
+  align-items: center; /* allows us to center the flex container's content vertically */
+}
