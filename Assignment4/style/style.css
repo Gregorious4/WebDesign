@@ -14,6 +14,9 @@
   flex-direction: row; /* aligns items in a row */
   align-items: center; /* vertically centers items within the row */
   gap: 20px; /* adds space between items */
+  width: 35%; /* image takes up 35% of the total width of .blog-preview */
+  height: auto; /* keeps proportions correct */
+  border-radius: 8px; /* optional */
 }
 
 .blog-text {
