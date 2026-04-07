@@ -10,8 +10,9 @@
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
+  content: url("images/MailSymbol.png");
 }
 .ContactMe:hover {
   background-color: #0056b3;
-  content: url("images/MailSymbol.png");
+  content: url("images/MailSymbolOpen.png");
 }
