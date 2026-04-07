@@ -1,0 +1,15 @@
+/* Simple button styling */
+.ContactMe {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ContactMe:hover {
+  background-color: #0056b3;
+}
