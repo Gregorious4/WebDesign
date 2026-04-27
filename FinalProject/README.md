@@ -1,0 +1,1 @@
+Flexbox and Grid are super useful but of course I'm still getting the hang of implementing them properly. Almost any static module can be integrated using those two functions, which is super nice. I had fun with the footer just because I felt like I had a much lower amount of work to get done the second week so I was free to experiment a little bit more. 
