@@ -459,7 +459,7 @@ function update(dt) {
   if (doRight) lander.angle += (ROT_SPD * Math.PI / 180) * dt;
 
   if (doThrust) {
-    lander.vx  += -Math.sin(lander.angle) * THRUST * dt;
+    lander.vx  += Math.sin(lander.angle) * THRUST * dt;
     lander.vy  += -Math.cos(lander.angle) * THRUST * dt;
     lander.fuel = Math.max(0, lander.fuel - 0.14 * dt);
     lander.thrusting = true;
