@@ -286,6 +286,10 @@ const PROJECTS = [
 const canvas = document.getElementById('gameCanvas');
 const ctx    = canvas.getContext('2d');
 
+let gameStarted = false, gameOver = false, hasLanded = false;
+let stars = [], terrain = [], pads = [], particles = [];
+let lander, camX = 0, targetCamX = 0;
+
 let W, H;
 const resize = () => {
   W = canvas.width  = canvas.offsetWidth;
@@ -303,10 +307,6 @@ const SAFE_SPD   = 1.7;   // m/s max on landing
 const SAFE_ANG   = 17;    // degrees from vertical
 const PAD_W      = 82;
 const WORLD_MULT = 3;     // world is 3× canvas width
-
-let gameStarted = false, gameOver = false, hasLanded = false;
-let stars = [], terrain = [], pads = [], particles = [];
-let lander, camX = 0, targetCamX = 0;
 
 // Input
 const keys = {};
