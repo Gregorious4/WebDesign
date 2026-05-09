@@ -789,7 +789,7 @@ function showModal(idx, padLabel) {
     : `<span class="ph">[ SET image: "${p.name.toLowerCase().replace(/\s/g,'')}.png" ]</span>`;
 
   document.getElementById('m-tags').innerHTML  = p.tags.map(t=>`<span class="m-tag">${t}</span>`).join('');
-  document.getElementById('m-links').innerHTML = p.links.map(l=>`<a class="m-link" href="${l.href}">${l.label}</a>`).join('');
+  document.getElementById('m-links').innerHTML = p.links.map(l=>`<a class="m-link" href="${l.href}" target="_blank" rel="noopener noreferrer">${l.label}</a>`).join('');
 
   document.getElementById('modal').classList.add('show');
 }
