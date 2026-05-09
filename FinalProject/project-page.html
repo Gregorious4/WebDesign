@@ -226,58 +226,52 @@ html, body { width: 100%; height: 100%; background: #000; overflow: hidden; }
 </div>
 
 <script>
-// ═══════════════════════════════════════════════════════════════
-//  ✏️  CUSTOMIZE YOUR PROJECTS HERE
+//  CUSTOMIZE PROJECTS HERE
 //  - name:        Title shown in the modal
 //  - image:       Path to your screenshot/thumbnail (e.g. "images/game1.png")
 //                 Leave "" to show a placeholder
 //  - description: Short paragraph about the project
 //  - tags:        Tech, tools, genre — shown as small badges
 //  - links:       Buttons at the bottom (label + href)
-// ═══════════════════════════════════════════════════════════════
 const PROJECTS = [
   {
     padLabel: "PAD ALPHA",
-    name: "Project Alpha",
+    name: "FOCUS",
     image: "",  // e.g. "images/alpha.png"
-    description: "A fast-paced 2D platformer with procedurally generated levels and hand-crafted pixel art. Built solo in Unity over six months as a personal passion project exploring generative design.",
-    tags: ["Unity", "C#", "Procedural Gen", "2D Platformer"],
+    description: "Experimental project with a groundbreaking control scheme. Built solo in Unreal over a semester. Uses a 'Mindflex' headset I bought off ebay and reconfigured to scan EEG signals in the brain.",
+    tags: ["Unreal", "Blueprint", "EEG Headset", "3D Platformer"],
     links: [
       { label: "PLAY DEMO", href: "#" },
-      { label: "SOURCE CODE", href: "#" }
     ]
   },
   {
     padLabel: "PAD BETA",
-    name: "Project Beta",
+    name: "Chic",
     image: "",
-    description: "A top-down survival roguelite with real-time combat, crafting, and a dynamic day/night cycle. Shipped in 72 hours for a university game jam — placed 2nd overall.",
-    tags: ["Godot 4", "GDScript", "Roguelite", "Game Jam"],
+    description: "Built for the Global Game Jam 2025, Play as Chic, a Spanish Sparrow who falls from their nest. While they can't fly on their own, a magical toad gives them a bubble while they learn to fly.  Blow on the bubble, or say encouraging words to Chic to get them moving. Help them learn to fly and get home!",
+    tags: ["Unity", "Bird Game", "C#", "Game Jam"],
     links: [
-      { label: "PLAY ON ITCH.IO", href: "#" },
-      { label: "JAM PAGE", href: "#" }
+      { label: "PLAY ON ITCH.IO", href: "#https://sollytowerstests.itch.io/chic" },
     ]
   },
   {
     padLabel: "PAD GAMMA",
-    name: "Project Gamma",
+    name: "Aftermask",
     image: "",
-    description: "An atmospheric puzzle game built around light and shadow mechanics. Players manipulate geometry to project silhouettes and solve environmental puzzles across surreal dreamscapes.",
-    tags: ["Unreal 5", "C++", "Blueprints", "Puzzle"],
+    description: "Made for the Global Game Jam 2026. 2D platformer that requires the player to find and equip masks to progress. You are a little psychopomp tasked with navigating the paths of the underworld and guide those that are trapped in death masks to their final resting place.",
+    tags: ["Godot", "GDScript", "2D Platformer", "Game Jam"],
     links: [
-      { label: "TRAILER", href: "#" },
-      { label: "CASE STUDY", href: "#" }
+      { label: "PLAY ON ITCH.IO", href: "#https://grete-tanberg.itch.io/aftermask" },
     ]
   },
   {
     padLabel: "PAD DELTA",
-    name: "Project Delta",
+    name: "Insect Inspect",
     image: "",
-    description: "A multiplayer arena shooter prototype with custom client-side prediction netcode. Focused on achieving sub-50ms effective latency at moderate tick rates using a rollback-inspired approach.",
-    tags: ["Unity", "C#", "Networking", "Multiplayer", "Prototype"],
+    description: "Made for the Missoula Butterfly House and Insectarium. This game teaches children how to tell the difference between species of bees, flies, and wasps that live around the Missoula Montana area.",
+    tags: ["Unity", "C#", "Collaberation", "Serious Game", "Bug Game"],
     links: [
-      { label: "DEVLOG", href: "#" },
-      { label: "GITHUB", href: "#" }
+      { label: "PLAY ON ITCH.IO", href: "#https://universityofmontana.itch.io/insect-inspect" },
     ]
   }
 ];
